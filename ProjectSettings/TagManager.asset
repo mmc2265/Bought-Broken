@@ -18,6 +18,7 @@ TagManager:
   - RightController
   - DoneObject
   - Ground
+  - Walls
   layers:
   - Default
   - TransparentFX

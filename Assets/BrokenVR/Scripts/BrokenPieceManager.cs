@@ -20,6 +20,8 @@ public class BrokenPieceManager : MonoBehaviour {
 
     public float upDirection;
     public Vector3 localUp;
+    private Vector3 startPos;
+    private Quaternion startRot;
 
     private Rigidbody rb;
 
@@ -28,6 +30,8 @@ public class BrokenPieceManager : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         sceneManager = GameObject.Find("SceneManager").GetComponent<VaseSceneManager>();
         audio = GetComponent<AudioSource>();
+        startPos = transform.position;
+        startRot = transform.rotation;
 	}
 	
 	// Update is called once per frame
@@ -102,6 +106,12 @@ public class BrokenPieceManager : MonoBehaviour {
         if(collision.gameObject.tag == "Ground" || collision.gameObject.tag == "BrokenPiece")
         {
             audio.PlayOneShot(groundHit);
+        }
+
+        if (collision.gameObject.tag == "Walls")
+        {
+            transform.position = startPos;
+            transform.rotation = startRot;
         }
     }
 }
