@@ -12,3 +12,4 @@ Platform: HTC Vive
 Development tools: Unity, C#
 SDKs: SteamVR 
 Assets: Unity Asset Store (Toon Furniture Package, Destructible Greek Vase, Olive_Tree); Wayfair; SketchFab
+Under MIT Open Source License
