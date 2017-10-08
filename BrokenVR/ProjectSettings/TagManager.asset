@@ -8,6 +8,11 @@ TagManager:
   - projectile
   - BrokenVase
   - BrokenPiece
+  - BrokenPiece1
+  - BrokenPiece2
+  - Slot1
+  - Slot2
+  - Controller
   layers:
   - Default
   - TransparentFX

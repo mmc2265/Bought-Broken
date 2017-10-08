@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/BrokenVR/Scenes/Test Scene.unity
+- path: Assets/BrokenVR/Scenes/Main.unity
   isLoaded: 1
   isActive: 1

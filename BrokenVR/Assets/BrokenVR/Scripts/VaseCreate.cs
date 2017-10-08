@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class VaseCreate : MonoBehaviour {
 
-	public GameObject rightController;
+	//public GameObject rightController;
     public Vector3 upDirection;
+    public GameObject vaseFrag1;
+    public GameObject vaseFrag2;
     public GameObject staticVaseBase;
+
+
     //public SteamVR_Controller.Device device;
 
     public float angle;
