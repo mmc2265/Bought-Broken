@@ -3,7 +3,7 @@
 Brief Description: This is a social-emotional learning VR platform to help survivors of domestic violence reconcile with their past.
 
 Team Lead: Theresa Loong; 718-496-4964
-All team members: Monica Chan, Tegas Shroff, Joshua Widdicombe, Roseena Hussain
+All team members: Monica Chan, Tejas Shroff, Joshua Widdicombe, Roseena Hussain
 Category: Education VR / VR For Good 
 Location: 3rd floor, Rm 393, Table No. 46
 
